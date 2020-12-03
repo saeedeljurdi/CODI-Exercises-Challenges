@@ -1,0 +1,29 @@
+.countries {
+  display: flex;
+}
+
+/* Add your own CSS code below */
+.countries.countries--first .country .country--brazil {
+  order: 5;
+}
+.countries.countries--first .country.country--croatia{
+  order: 1;
+}
+.countries.countries--first .country.country--ethiopia {
+  order: 2;
+}
+.countries.countries--first .country.country--laos {
+  order: 3;
+}
+.countries.countries--second .country.country--brazil {
+  order: 3;
+}
+
+.countries.countries--second .country.country--uganda {
+  order: 4;
+}
+
+.countries.countries--third {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}

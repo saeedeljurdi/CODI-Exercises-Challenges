@@ -1,0 +1,45 @@
+/* Add your own CSS code below */
+
+.heart {
+  color: #c85308;
+}
+
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 70px;
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 767px) {
+  .views {
+    display: flex;
+    flex-direction: row;
+  }
+  .view-list__item {
+    margin-left: 5%;
+  }
+  .views__all {
+    margin-left: auto;
+  }
+}
+
+.main-article {
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 18%;
+  line-height: 2;
+}

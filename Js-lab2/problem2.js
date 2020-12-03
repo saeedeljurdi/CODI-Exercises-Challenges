@@ -1,0 +1,10 @@
+var a,b,c;
+a=prompt();
+b=prompt();
+c=prompt();
+var z=Boolean(a==b==c);
+window.alert(z);
+var y=Boolean(c>b&&b>a);
+window.alert(y);
+var x=Boolean(c==b||b==a||c==a);
+window.alert(x);

@@ -1,0 +1,14 @@
+var x,y,z,w,u;
+x=prompt();
+y=prompt();
+z=prompt();
+w=prompt();
+u=prompt();
+var x= parseInt(x);
+var y = parseInt(y);
+var z = parseInt(z);
+var w = parseInt(w);
+var u = parseInt(u);
+var max=Math.max(x,y,z,w,u);
+var min=Math.min(x,y,z,w,u);
+window.alert("the maximum number is : "+max+"\n"+"the minimum number is : "+min);

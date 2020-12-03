@@ -1,0 +1,12 @@
+var x,y,z,w;
+x=prompt();
+y=prompt();
+z=prompt();
+w=prompt();
+var x= parseInt(x);
+var y = parseInt(y);
+var z = parseInt(z);
+var w = parseInt(w);
+var num=-y*w/z;
+var n=x+num;
+window.alert(n);
